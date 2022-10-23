@@ -10,7 +10,7 @@ Licenc: GNU GPL
 
 
 const szamolGomb = document.querySelector('#szamolGomb');
-const eredmeny = document.querySelector('#eredmeny') as HTMLInputElement;
+const eredmeny = document.querySelector('#eredmeny');
 
 
 szamolGomb?.addEventListener('click', () => {
@@ -29,7 +29,7 @@ szamolGomb?.addEventListener('click', () => {
     boldal.value = "";
     coldal.value = "";
     doldal.value = "";
-    // alert(terulet);
+    alert(terulet);
 });
 
 function szamolTerulet(aoldal: number, boldal: number, coldal: number, doldal: number):number {

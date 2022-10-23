@@ -1,0 +1,26 @@
+body
+{
+    background-color: rgb(163, 163, 163);
+}
+
+
+.container
+{
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.trapezszoveg
+{
+    text-align: center;
+    color: white;
+}
+
+footer
+{
+    text-align: right;
+    text-decoration: underline;
+}
+
+
