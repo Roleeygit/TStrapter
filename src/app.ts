@@ -29,7 +29,7 @@ szamolGomb?.addEventListener('click', () => {
     boldal.value = "";
     coldal.value = "";
     doldal.value = "";
-    alert(terulet);
+    // alert(terulet);
 });
 
 function szamolTerulet(aoldal: number, boldal: number, coldal: number, doldal: number):number {

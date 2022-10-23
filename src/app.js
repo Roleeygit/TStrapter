@@ -24,13 +24,12 @@ szamolGomb === null || szamolGomb === void 0 ? void 0 : szamolGomb.addEventListe
     boldal.value = "";
     coldal.value = "";
     doldal.value = "";
-    alert(terulet);
+    // alert(terulet);
 });
 function szamolTerulet(aoldal, boldal, coldal, doldal) {
-    // return ((aoldal+coldal)/(4*(aoldal-coldal))) * Math.sqrt(2)* 
-    // ((aoldal+boldal-coldal+doldal)*
-    // (aoldal-boldal-coldal+doldal)
-    // *(aoldal+boldal-coldal-doldal)
-    // *(-aoldal+boldal+coldal+doldal))
-    return aoldal + boldal + coldal + doldal;
+    return ((aoldal + coldal) / (4 * (aoldal - coldal))) * Math.sqrt(2) *
+        ((aoldal + boldal - coldal + doldal) *
+            (aoldal - boldal - coldal + doldal)
+            * (aoldal + boldal - coldal - doldal)
+            * (-aoldal + boldal + coldal + doldal));
 }
